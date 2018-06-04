@@ -1,0 +1,170 @@
+/* Based on the ofiginal creations from csszengarden */
+/* Modified, simplified, and otherwise refined for personal use*/
+
+
+/* css Zen Garden submission 089 - 'Dark Industrial', by Ray Henry, http://www.reh3.com */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* All associated graphics copyright 2004, Ray Henry */
+/* Added: March 29th, 2004 */
+
+/* IMPORTANT */
+/* This design is not a template. You may not reproduce it elsewhere without the 
+   designer's written permission. However, feel free to study the CSS and use 
+   techniques you learn from it elsewhere. */
+
+/* This file based on 'GearWorx99' by Ray Henry */
+/* http://www.reh3.com/ */
+
+
+/* basic elements */
+body {
+	margin:0;
+	padding:0;
+	background:#273340;/* url(main_bg.jpg) no-repeat bottom fixed; */
+	text-align:center;
+	width:100%;
+	height:100%;
+	font-family:verdana, arial, "sans-serif";
+}
+h1, h2, h3, h4, h5 {
+	padding:0;
+	margin:0;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+/* structural elements */
+#container {
+	background:url(container_bg.jpg) repeat-y;
+	position:relative;
+  	width:684px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+}
+#intro {
+	padding:0;
+}
+#pageHeader {
+	background:url(intro_bg.jpg) no-repeat top left;
+	height:132px;
+}
+#supportingText {
+	position:relative;
+	left:0;
+	width:350px;
+}
+#linkList {
+	position:absolute; 
+	top:169px;
+	right:2px;
+	margin:0 0 0 350px;
+}
+
+/* intro */
+
+#preamble {
+	position:relative;
+	left:0;
+	width:350px;
+	padding:0 45px 0 0;
+	margin:0;
+	font-size:11px; 
+}
+
+#preamble p {
+	color:#919AA4;
+	margin:50px 0 15px 0px;
+	padding:0;
+	line-height:14px;
+}
+
+#preamble a:link, #preamble a:active, #preamble a:visited {
+	color:#919AA4;
+	font-weight:bold;
+}
+
+#preamble a:hover {
+	color:#b3bcc6;
+}
+
+#rightMenu {
+	position:absolute;
+	top:132px;
+	right:0px;
+	background:url(right_bar.gif) no-repeat top right;
+	width:291px;
+	height:47px;
+	font-size:15px;
+	color:#CC9900;
+	text-align:right;
+	padding:0;
+	margin:0;
+}
+#rightMenu p {
+	margin:10px 140px 0 0;
+}
+#rightMenu a:link, #rightMenu a:active, #rightMenu a:visited {
+	color:#92A0AB;
+	text-decoration:none;
+	border-bottom:2px solid #506067;
+}
+#rightMenu a:hover {
+	color:#b4c2cd;
+	text-decoration:none;
+	border-bottom:2px solid #708089;
+}
+#rightMenuHeaders {
+    padding: 7px 0 7px 0px;
+	color:#909FB1;
+	font-size:15px;
+}
+
+/* supportingText */
+#supportingText p {
+	color:#919AA4;
+	margin:10px 0 15px 0px;
+	padding:0;
+	line-height:14px;
+	font-size:11px;
+}
+#supportingText h3 {
+	margin:10px 0 0 0;
+	height:22px;
+}
+
+#supportingText a:link, #supportingText a:active, #supportingText a:visited {
+	color:#919AA4;
+	font-weight:bold;
+}
+#supportingText a:hover {
+	color:#b3bcc6;
+}
+#explanation:hover, #preamble:hover {
+	background:url(contentHover_bg.gif) no-repeat 0 20px;
+}
+
+/* linkList */
+#linkList ul {
+	list-style:none;
+}
+#lselect {
+	margin:10px 0 0 0;
+	font-size:10px;
+}
+#lselect li {
+	padding:4px 0 4px 10px;
+	color:#909FB1;
+}
+#lselect a:link, #lselect a:active, #lselect a:visited {
+	color:#909FB1;
+	font-weight:bold;
+}
+#lselect a:hover {
+	color:#f50;
+}
+#lselect a.c {
+	font-weight:normal;
+	text-decoration:none;
+}
